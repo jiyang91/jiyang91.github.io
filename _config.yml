@@ -6,11 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Jiyang Lee
+title: Engineer
+email: jiyang.lee91@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +82-10-9158-0911
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
