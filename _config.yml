@@ -67,7 +67,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Sogang University
         sub_title: Master of Science in Mechanical Engineering
         caption: Mar. 2015 - Feb. 2017
@@ -75,16 +75,6 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-      - layout: top-right
-        title: Sogang University
-        sub_title: Bachelor of Science in Mechanical Engineerin
-        caption: Mar. 2011 - Feb. 2015
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          -	Admitted with highest distinction in Korean SAT and scholarship
-          -	Scholarship for an Excellent Record for 2 years (Full tuition, Merit-based scholarship)
-          -	Xavier Scholarship for one year (Half tuition, Merit-based scholarship)
 - title: Experience
     layout: list
     content:
