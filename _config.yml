@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jiyang Lee
-title: Data Scientist
+title: Mechatronics Engineer
 email: jiyang.lee91@gmail.com
 website: https://jiyang91.github.io
 
@@ -21,11 +21,11 @@ github_username:  jiyang91
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jylee
+# linkedin_username: jylee
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -46,15 +46,22 @@ gtag: "G-2YPRTHGBR2"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am Jiyang Lee from South Korea. I am a Data scientist in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
+
+  I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
+
+  Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. My thesis was on <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">“Path planning for SCARA robot based on marker detection using feature extraction and, labelling”.</a>
+
+  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #  - Lists
+  #  - Tables
+  #  - <a href="google.com">Links</a>
+  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
