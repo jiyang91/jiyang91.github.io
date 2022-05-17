@@ -71,8 +71,6 @@ content:
         title: Sogang University
         sub_title: Master of Science in Mechanical Engineering
         caption: Mar. 2015 - Feb. 2017
-        quote: >
-          Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: Experience
