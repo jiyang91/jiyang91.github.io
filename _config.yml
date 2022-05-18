@@ -71,11 +71,12 @@ content:
         title: Sogang University
         sub_title: Master of Science in Mechanical Engineering
         caption: Mar. 2015 - Feb. 2017
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           - Master’s Thesis: Development of Path Planning using Marker for SCARA Robot PET Dispensing System
           - Advisor: Prof. Cheol-soo Lee
+        description: | # this will include new lines to allow paragraphs
           - Graduate Research Assistant, CAD/CAM Lab 
-            Analyzed PET Dispensing system, and Composed robotic dispensing system.
+            - Analyzed PET Dispensing system, and Composed robotic dispensing system.
           - Designed various multi-axis manipulators, especially made SCARA robot for industrial purpose.
           - Published two journals; attended three conferences.
       - layout: top-left
@@ -85,7 +86,7 @@ content:
           -	Admitted with highest distinction in Korean SAT and scholarship
           -	Scholarship for an Excellent Record for 2 years (Full tuition, Merit-based scholarship)
           -	Xavier Scholarship for one year (Half tuition, Merit-based scholarship)
-  - title: Experience
+  - title: Professional Experience
     layout: list
     content:
       - layout: right
