@@ -37,6 +37,68 @@ gtag: "G-2YPRTHGBR2"
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   I am Jiyang Lee from South Korea. I am a Data scientist in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
 
   I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
@@ -44,48 +106,25 @@ about_content: | # this will include new lines to allow paragraphs
   Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. My thesis was on <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">Path planning for SCARA robot based on marker detection using feature extraction and, labelling.</a>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    border: weak
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | 
-          Description about the work on/with the project
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         border: weak
         title: Sogang University
         sub_title: Master of Science in Mechanical Engineering
         caption: Mar. 2015 - Feb. 2017
-        quote: >
-          - Master Thesis: Development of Path Planning using Marker for SCARA Robot PET Dispensing System
-          - Advisor: Prof. Cheol-soo Lee
-        description: | 
-          - Graduate Research Assistant, CAD/CAM Lab 
+        description: |
+          - Master Thesis: Development of Path Planning using Marker for SCARA Robot PET Dispensing System (*Advisor: Prof. Cheol-soo Lee*)
+          - Graduate Research Assistant, <a ref="http://cadcam.sogang.ac.kr/index.php">CAD/CAM Lab</a>
             - Analyzed PET Dispensing system, and Composed robotic dispensing system.
           - Designed various multi-axis manipulators, especially made SCARA robot for industrial purpose.
           - Published two journals; attended three conferences.
-      - layout: top-left
+      - layout: left
         border: weak
         sub_title: Bachelor of Science in Mechanical Engineering
         caption: Mar. 2011 - Feb. 2015
-        description: | 
+        description: |
           -	Admitted with highest distinction in Korean SAT and scholarship
           -	Scholarship for an Excellent Record for 2 years (Full tuition, Merit-based scholarship)
           -	Xavier Scholarship for one year (Half tuition, Merit-based scholarship)
@@ -93,18 +132,54 @@ content:
     layout: list
     border: weak
     content:
-      - layout: top-left
+      - layout: left
         title: LG Display
-        sub_title: Vision Inspection Algoirthm Team - Research engineer
-        caption: Dec. 2020. - Present.
-        link: https://www.lgdisplay.com/eng
-        quote: >
-          Short description of the company (optional)
-        description: | 
+        sub_title: Vision Inspection Algoirthm Team<br><i>Research engineer</i>
+        caption: Dec. 2020 - Present
+        border: weak
+        description: |
           Description of role
+      - layout: left
+        title: Korea Institute of Science and Technology
+        sub_title: Robot and media institute<br><i>Research engineer</i>
+        caption: Oct. 2018 - Feb. 2020
+        border: weak
+        description: |
+          Description of role
+      - layout: left
+        title: CSCAM
+        sub_title: CNC Department<br><i>Assistant Research Engineer</i>
+        caption: Jan. 2017 - Sep. 2018
+        border: weak
+        description: |
+          Description of role
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    border: weak
+    content:
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: |
+          Description about the work on/with the project
+
   - title: A Little More About Me
     layout: text
-    content: | 
+    content: |
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
@@ -122,17 +197,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
