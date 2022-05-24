@@ -45,6 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Education
     layout: list
+    border: weak
     content:
       - layout: left
         border: weak
