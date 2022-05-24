@@ -36,69 +36,6 @@ gtag: "G-2YPRTHGBR2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   I am Jiyang Lee from South Korea. I am a Data scientist in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
 
   I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
@@ -158,6 +95,18 @@ content:
     layout: list # Type of content section (list/text)
     border: weak
     content:
+      - layout: left
+        border: weak 
+        title: Quadruped robot
+      - layout: left
+        border: weak 
+        title: Few-shot learning
+      - layout: left
+        border: weak 
+        title: Padim
+      - layout: left
+        border: weak 
+        title: Robotic PET dispensing
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
