@@ -36,7 +36,7 @@ gtag: "G-2YPRTHGBR2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Jiyang Lee from South Korea. I am a Data scientist in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
+  I am Jiyang Lee from South Korea. I am a Research Engineer in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
 
   I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
 
