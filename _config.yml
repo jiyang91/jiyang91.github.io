@@ -53,7 +53,8 @@ content:
         sub_title: Master of Science in Mechanical Engineering
         caption: Mar. 2015 - Feb. 2017
         description: |
-          - Master Thesis: Development of Path Planning using Marker for SCARA Robot PET Dispensing System (*Advisor: Prof. Cheol-soo Lee*)
+          - Master Thesis: Development of Path Planning using Marker for SCARA Robot PET Dispensing System 
+            <br/>(*Advisor: Prof. Cheol-soo Lee*)
           - Graduate Research Assistant, <a ref="http://cadcam.sogang.ac.kr/index.php">CAD/CAM Lab</a>
             - Analyzed PET Dispensing system, and Composed robotic dispensing system.
           - Designed various multi-axis manipulators, especially made SCARA robot for industrial purpose.
