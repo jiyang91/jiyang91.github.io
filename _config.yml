@@ -17,6 +17,8 @@ darkmode: true
 # Social links
 # twitter_username: facespics
 github_username: jiyang91
+googlescholar_username: PWN7rLIAAAAJ
+youtube_username: UC1j9IwcZfdZPYXOFNxQwHow
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -25,10 +27,8 @@ github_username: jiyang91
 # linkedin_username: jylee
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: UC1j9IwcZfdZPYXOFNxQwHow
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
-googlescholar_username: PWN7rLIAAAAJ
 
 # Google Analytics and Tag Manager
 gtag: "G-2YPRTHGBR2"
@@ -130,49 +130,60 @@ content:
           -	(Client: Samsung Electro-Mechanics) Designed mechanisms and components to build a high-precision, high-stability XRF inspection machine using Autodesk Inventor; created and managed BOM list.
           -	(Client: Samsung Display) Constructed a loading machine and buffer machine in the T-bending manufacturing line for OLED; modified parts designs and diagrams, and created and managed BOM list.
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     border: weak
     content:
       - layout: left
-        border: weak
-        title: Quadruped robot
-        description: |
-          I developed quadruped robot with smart motor. During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except
-      - layout: left
-        border: weak
         title: Robotic PET dispensing
-        description: |
-          My project in master course was Developing Automated PET Dispenser. Automated PET Dispenser
-      - layout: left
         border: weak
-        title: Few-shot learning
         description: |
-          I tried to build classification model for Fine Metal Mask(FMM). Dataset has some issues: imbalanced, dataset.
-      - layout: left
-        border: weak
-        title: Anomaly Detection
-        description: |
-          I developed anomaly detection system using Padim(Patch Distribution Modeling Framework for Anomaly Detection and Localization)(https://arxiv.org/abs/2011.08785).
+          - What I contributed
+
+              My project in master course was Developing Automated PET Dispenser. 
+
+              The main objective of this work is developing the production system for radioactive products using the SCARA robot. 
+
+              It help protecting workers from exposing to radioactive.
+
+          - Review
+
+              This project taught me a lot. C++ MFC was the language all I could use, and I should control and communicate with robots and
 
       - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: Few-shot learning
+        border: weak
         description: |
-          Description about the work on/with the project
+          - What I contributed
+
+              I tried to build classification model for Fine Metal Mask(FMM). Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
+
+          - Review
+
+      - layout: left
+        title: Anomaly Detection
+        border: weak
+        description: |
+          - What I contributed
+
+              I developed anomaly detection system using Padim(<a href="https://arxiv.org/abs/2011.08785">Patch Distribution Modeling Framework for Anomaly Detection and Localization<a/>).
+
+          - Review
+              aaaa
+
+      - layout: left
+        title: Quadruped robot
+        border: weak
+        description: |
+          ![alt text](./images/IMG_20191010_185243.jpg "Trees")
+
+          - What I contributed
+
+              I developed quadruped robot with smart motor. During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except main plates. I completly assembled quadruped robot and experimented simple angular motions in static state. In addition, installing camera module on robot and experimented it's status.
+
+          - Review
+
+              I did a mistake during designing this robot: wrongly using Smart motor. I tried my motor ratio for extending velocity range. However, this decision made system and design weaker. Complex design had a negative influence on not only weigth but also mechanism. It must be better to use motor as it is.
 
 # Footer
 footer_show_references: true
