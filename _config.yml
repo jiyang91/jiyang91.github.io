@@ -28,6 +28,7 @@ github_username: jiyang91
 youtube_username: UC1j9IwcZfdZPYXOFNxQwHow
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
+googlescholar_username: PWN7rLIAAAAJ
 
 # Google Analytics and Tag Manager
 gtag: "G-2YPRTHGBR2"
@@ -67,6 +68,20 @@ content:
           -	Admitted with highest distinction in Korean SAT and scholarship
           -	Scholarship for an Excellent Record for 2 years (Full tuition, Merit-based scholarship)
           -	Xavier Scholarship for one year (Half tuition, Merit-based scholarship)
+
+  - title: Publication
+    layout: text
+    content: |
+      - Journals
+        1.	Lee, J.Y. and Lee, C.S. (2018). Path planning for SCARA robot based on marker detection using feature extraction and labelling. International Journal of Computer Integrated Manufacturing, 31(8), 769-776.   <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">[link]<a/>
+        2.	Lee, J.Y., Lee, D.G., and Lee, C.S. (2017). Development of Robotic Dispensing System for Radiopharmaceuticals using SCARA Robot. Journal of the Korean Society of Manufacturing Technology Engineers, 26(5), 441-449. [Best Paper Award]   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07256079">[link]<a/><br/>
+
+      - Conferences
+        3.	Kim, M., Lee, J.Y., Kim, J., Nigatu, H., and Kim, D. A Robust Position Estimation Algorithm under Unusual Large Range Errors, 2019 28th IEEE International Conference on Robot and Human Interactive Communication (ROMAN), New Delhi, India, 2019, pp. 1-6 (Oral session).   <a href="https://www.researchgate.net/profile/Hassen_Nigatu/publication/338588210_A_Robust_Position_Estimation_Algorithm_under_Unusual_Large_Range_Errors/links/60ab49f8299bf1031fc43005/A-Robust-Position-Estimation-Algorithm-under-Unusual-Large-Range-Errors.pdf">[link]<a/>
+        4.	Lee, J.Y. and Lee, C.S., Path planning for SCARA robot based on marker detection using feature extraction, labeling, and inverse perspective transform. 26th International Conference on Flexible Automation and Intelligent Manufacturing, Seoul, Korea, Jun. 2016 (Presenter, Oral session).
+        5.	Lee, C.S., Lee, J.Y., Lee, D.G. and Kim, J.M. Teleoperation of SCARA Robot for Radiopharmaceutical Product Dispensing. 2016 Fall Conference of The Korean Society of Manufacturing Technology Engineers, Jeju Island, Korea, Nov. 2016 (Oral session).   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07059326">[link]<a/>
+        6.	Lee, J.Y. and Lee, C.S. SCARA Robot 2-Dimensional Path Planning by Using Markers. The 2016 Winter Conference of Society for Computational Design and Engineering, Gangwon Province, Korea, Jan. 2016 (Presenter, Oral session).   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06648627">[link]<a/>
+
   - title: Professional Experience
     layout: list
     border: weak
@@ -103,6 +118,7 @@ content:
           -	Estimated positions for a robot swarm with various type of sensors in an indoor environment.
               -	Conducted an experiment on an Ultra-wideband (UBW) sensor-based algorithm with five TurtleBots.
               -	Published one conference paper (3).
+
       - layout: left
         title: CSCAM
         sub_title: CNC Department<br><i>Assistant Research Engineer</i>
@@ -122,16 +138,23 @@ content:
         border: weak
         title: Quadruped robot
         description: |
-          I developed quadruped robot with smart motor. During designing,
-      - layout: left
-        border: weak
-        title: Few-shot learning
-      - layout: left
-        border: weak
-        title: Padim
+          I developed quadruped robot with smart motor. During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except
       - layout: left
         border: weak
         title: Robotic PET dispensing
+        description: |
+          My project in master course was Developing Automated PET Dispenser. Automated PET Dispenser
+      - layout: left
+        border: weak
+        title: Few-shot learning
+        description: |
+          I tried to build classification model for Fine Metal Mask(FMM). Dataset has some issues: imbalanced, dataset.
+      - layout: left
+        border: weak
+        title: Anomaly Detection
+        description: |
+          I developed anomaly detection system using Padim(Patch Distribution Modeling Framework for Anomaly Detection and Localization)(https://arxiv.org/abs/2011.08785).
+
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
@@ -150,13 +173,6 @@ content:
           Short overview of the project (optional)
         description: |
           Description about the work on/with the project
-
-  - title: A Little More About Me
-    layout: text
-    content: |
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
