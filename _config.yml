@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: jiyang91/jiyang91.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -12,7 +12,7 @@ email: jiyang.lee91@gmail.com
 website: https://jiyang91.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -37,13 +37,67 @@ gtag: "G-2YPRTHGBR2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Jiyang Lee from South Korea. I am a Research Engineer in LG Display, Vision Inspection Team, doing research on detection algorithms(Rule-based, MLDL) in display manufacturing fields.
+  I am Jiyang Lee from South Korea. I am a Research Engineer in LG Display, Vision Inspection Team, doing research on computer vision algorithms in display manufacturing fields.
 
   I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
 
   Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. I published <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">Path planning for SCARA robot based on marker detection using feature extraction and, labelling.</a>
 
+  Skill: <mark>C++</mark>
+
 content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Robotic PET dispensing
+        sub_title:
+        caption: Jan. 2015. - Feb. 2017.
+        description: |
+          What I contributed: My project in master course was Developing Automated PET Dispenser. The main objective of this work is developing the production system for radioactive products using the SCARA robot. It help protecting workers from exposing to radioactive.
+
+          Review: This project taught me a lot. C++ MFC was the language all I could use, and I should control and communicate with robots and
+
+      - layout: top-middle
+        title: Few-shot learning
+        sub_title:
+        caption: Feb. 2022. - Jun. 2022.
+        border: weak
+        description: |
+          What I contributed: I tried to build classification model for Fine Metal Mask(FMM). Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
+
+          Review
+
+      - layout: top-middle
+        title: Anomaly Detection
+        sub_title:
+        caption: Oct. 2021. - Present
+        border: weak
+        description: |
+          What I contributed: I developed anomaly detection system using Padim(<a href="https://arxiv.org/abs/2011.08785">Patch Distribution Modeling Framework for Anomaly Detection and Localization<a/>).
+
+          Review: aaaa
+
+      - layout: top-middle
+        border: weak
+        title: Quadruped robot
+        caption: Oct. 2018. - Feb. 2020.
+        sub_title:
+        description: |
+
+          - What I contributed
+
+          I developed quadruped robot with 12 smart motors(<a href="https://www.robotis.com/shop/list.php?ca_id=203010">Robotis H54P motors<a/>). During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except main plates. I completly assembled quadruped robot and experimented simple angular motions in static state. In addition, installing camera module on robot and experimented it's status.
+
+          - Review
+
+          It was my first mobile robot project. I learned how to build them.
+
+          - Image
+
+          ![alt text](./images/Quadrupedrobot.png "Trees")
+
   - title: Education
     layout: list
     border: weak
@@ -74,7 +128,8 @@ content:
     content: |
       - Journals
         1.	Lee, J.Y. and Lee, C.S. (2018). Path planning for SCARA robot based on marker detection using feature extraction and labelling. International Journal of Computer Integrated Manufacturing, 31(8), 769-776.   <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">[link]<a/>
-        2.	Lee, J.Y., Lee, D.G., and Lee, C.S. (2017). Development of Robotic Dispensing System for Radiopharmaceuticals using SCARA Robot. Journal of the Korean Society of Manufacturing Technology Engineers, 26(5), 441-449. [Best Paper Award]   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07256079">[link]<a/><br/>
+        2.	Lee, J.Y., Lee, D.G., and Lee, C.S. (2017). Development of Robotic Dispensing System for Radiopharmaceuticals using SCARA Robot. Journal of the Korean Society of Manufacturing Technology Engineers, 26(5), 441-449. [Best Paper Award]   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07256079">[link]<a/>
+        
 
       - Conferences
         3.	Kim, M., Lee, J.Y., Kim, J., Nigatu, H., and Kim, D. A Robust Position Estimation Algorithm under Unusual Large Range Errors, 2019 28th IEEE International Conference on Robot and Human Interactive Communication (ROMAN), New Delhi, India, 2019, pp. 1-6 (Oral session).   <a href="https://www.researchgate.net/profile/Hassen_Nigatu/publication/338588210_A_Robust_Position_Estimation_Algorithm_under_Unusual_Large_Range_Errors/links/60ab49f8299bf1031fc43005/A-Robust-Position-Estimation-Algorithm-under-Unusual-Large-Range-Errors.pdf">[link]<a/>
@@ -130,68 +185,13 @@ content:
           -	(Client: Samsung Electro-Mechanics) Designed mechanisms and components to build a high-precision, high-stability XRF inspection machine using Autodesk Inventor; created and managed BOM list.
           -	(Client: Samsung Display) Constructed a loading machine and buffer machine in the T-bending manufacturing line for OLED; modified parts designs and diagrams, and created and managed BOM list.
 
-  - title: Projects
-    layout: list
-    border: weak
-    content:
-      - layout: left
-        title: Robotic PET dispensing
-        border: weak
-        description: |
-          - What I contributed
-
-              My project in master course was Developing Automated PET Dispenser. 
-
-              The main objective of this work is developing the production system for radioactive products using the SCARA robot. 
-
-              It help protecting workers from exposing to radioactive.
-
-          - Review
-
-              This project taught me a lot. C++ MFC was the language all I could use, and I should control and communicate with robots and
-
-      - layout: left
-        title: Few-shot learning
-        border: weak
-        description: |
-          - What I contributed
-
-              I tried to build classification model for Fine Metal Mask(FMM). Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
-
-          - Review
-
-      - layout: left
-        title: Anomaly Detection
-        border: weak
-        description: |
-          - What I contributed
-
-              I developed anomaly detection system using Padim(<a href="https://arxiv.org/abs/2011.08785">Patch Distribution Modeling Framework for Anomaly Detection and Localization<a/>).
-
-          - Review
-              aaaa
-
-      - layout: left
-        title: Quadruped robot
-        border: weak
-        description: |
-          ![alt text](./images/IMG_20191010_185243.jpg "Trees")
-
-          - What I contributed
-
-              I developed quadruped robot with smart motor. During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except main plates. I completly assembled quadruped robot and experimented simple angular motions in static state. In addition, installing camera module on robot and experimented it's status.
-
-          - Review
-
-              I did a mistake during designing this robot: wrongly using Smart motor. I tried my motor ratio for extending velocity range. However, this decision made system and design weaker. Complex design had a negative influence on not only weigth but also mechanism. It must be better to use motor as it is.
-
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass

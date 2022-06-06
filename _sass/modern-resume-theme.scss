@@ -110,6 +110,19 @@
         font-weight: 500;
       }
     }
+
+    h5 {
+      margin-bottom: 0.1rem;
+      font-weight: 2000;
+
+      @media print {
+        margin-bottom: 0.2rem;
+      }
+
+      a {
+        font-weight: 2000;
+      }
+    }
   }
 }
 
