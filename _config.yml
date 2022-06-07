@@ -43,7 +43,14 @@ about_content: | # this will include new lines to allow paragraphs
 
   Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. I published <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">Path planning for SCARA robot based on marker detection using feature extraction and, labelling.</a>
 
-  Skill: <mark>C++</mark>
+
+  - Technical Skills
+
+      - Programming: <mark>C++</mark>, <mark>Python</mark>, <mark>C#</mark>, <mark>OpenCV</mark>, <mark>PyTorch</mark>, and <mark>Cuda</mark>
+
+      - Mechanical Design: <mark>Autodesk AutoCAD</mark>, <mark>Inventor</mark>, and <mark>SolidWorks</mark>
+
+      - Languages: Korean, English
 
 content:
   - title: Projects
@@ -137,52 +144,58 @@ content:
         5.	Lee, C.S., Lee, J.Y., Lee, D.G. and Kim, J.M. Teleoperation of SCARA Robot for Radiopharmaceutical Product Dispensing. 2016 Fall Conference of The Korean Society of Manufacturing Technology Engineers, Jeju Island, Korea, Nov. 2016 (Oral session).   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07059326">[link]<a/>
         6.	Lee, J.Y. and Lee, C.S. SCARA Robot 2-Dimensional Path Planning by Using Markers. The 2016 Winter Conference of Society for Computational Design and Engineering, Gangwon Province, Korea, Jan. 2016 (Presenter, Oral session).   <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06648627">[link]<a/>
 
-  - title: Professional Experience
+  - title: Experience
     layout: list
-    border: weak
     content:
       - layout: left
+        border: weak
         title: LG Display
         sub_title: Vision Inspection Algoirthm Team<br><i>Research engineer</i>
         caption: Dec. 2020 - Present
-        border: weak
         description: |
           -	Develop a Multi-anomaly Detection Tool for user-friendly interface to train and test different models.
               -	Design a GUI interface to support individual SOTA anomaly detection methods.
               -	Deploy different anomaly detection strategy in one interface and optimize each method.
+
           -	Constructed an anomaly detection system for stain defect on display panels.
               -	Main Issues: Undifferentiable stain defect on display panel; non-automated alarming system for manufacturing line. 
               -	Built an automatic anomaly detection and localization system for stain defect. 
               -	Established a real-time auto-mailing system to send detection results and alarms to the production line. 
+
           -	Developed a Few-Shot Learning Classification Model for defect images in Fine Metal Mask (FMM).
               -	Main Issues: Tiny defect detection problem, small dataset training, and data imbalance.
               -	Improved the current detection rate by 16% and optimized data augmentation for the classification system.
+
           -	Accelerated the legacy system with a CUDA-based algorithm; transformed CPU functions to GPU kernels to save time.
               -	Upgraded two major algorithms used in a smart factory and increased the speed by seven times.
 
       - layout: left
+        border: weak
         title: Korea Institute of Science and Technology
         sub_title: Robot and media institute<br><i>Research engineer</i>
         caption: Oct. 2018 - Feb. 2020
-        border: weak
         description: |
           -	Designed and assembled a quadruped robot with smart motors; programmed position control program with inverse dynamics.
+
           -	Developed a remote 360-degree panoramic view system for the command centers of Firefighting Armored Robots.
               -	Upgraded the wired system to WI-FI 6 wireless panoramic view system to support firefighters in disaster rescue vehicles.
               -	Demonstrated multi-robots (armored robot, drones, and snake robot) with a firefighter team in disaster simulations.
+
           -	Estimated positions for a robot swarm with various type of sensors in an indoor environment.
               -	Conducted an experiment on an Ultra-wideband (UBW) sensor-based algorithm with five TurtleBots.
               -	Published one conference paper (3).
 
       - layout: left
+        border: weak
         title: CSCAM
         sub_title: CNC Department<br><i>Assistant Research Engineer</i>
         caption: Jan. 2017 - Sep. 2018
-        border: weak
         description: |
           -	Devised a Smartphone aluminum frame vision (optic/mechanical) inspection machine in two stages to identify surface defects. 
               -	Programmed the software and implemented a rule-based algorithm with OpenCV to create an optimal inspection setting.
+
           -	(Client: Samsung Electro-Mechanics) Designed mechanisms and components to build a high-precision, high-stability XRF inspection machine using Autodesk Inventor; created and managed BOM list.
+
           -	(Client: Samsung Display) Constructed a loading machine and buffer machine in the T-bending manufacturing line for OLED; modified parts designs and diagrams, and created and managed BOM list.
 
 # Footer
