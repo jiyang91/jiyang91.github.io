@@ -121,6 +121,11 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.website -%}
+        <p>
+          {{ site.website_title | default: "CV" }}: <a href="assets\Jiyang Lee_PhD in Mech Eng_CV.pdf">My CV</a>
+        </p>
+      {%- endif -%}
     </div>
   </div>
 </div>
