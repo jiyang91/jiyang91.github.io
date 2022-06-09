@@ -64,7 +64,7 @@ content:
         description: |
           What I contributed: My project in master course was Developing Automated PET Dispenser. The main objective of this work is developing the production system for radioactive products using the SCARA robot. It help protecting workers from exposing to radioactive.
 
-          Review: This project taught me a lot. C++ MFC was the language all I could use, and I should control and communicate with robots and
+          Review: This project taught me a lot. C++ MFC was the language all I could use, and  control robot, peripheral devices(dispenser, pump, and etc.).
 
       - layout: top-middle
         title: Few-shot learning
@@ -74,7 +74,7 @@ content:
         description: |
           What I contributed: I tried to build classification model for Fine Metal Mask(FMM). Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
 
-          Review
+          Review:
 
       - layout: top-middle
         title: Anomaly Detection
@@ -104,6 +104,26 @@ content:
           - Image
 
           ![alt text](./images/Quadrupedrobot.png "Trees")
+
+      - layout: top-middle
+        border: weak
+        title: Remote 360-degree panoramic view system for the command centers of Firefighting Armored Robots
+        caption: Jun. 2017. - Aug. 2017.
+        sub_title:
+        description: |
+
+          ![alt text](./images/Camera modules on mockup.jpg "Trees")
+
+      - layout: top-middle
+        border: weak
+        title: XRF Machine
+        caption: Jun. 2017. - Aug. 2017.
+        sub_title:
+        description: |
+
+          ![alt text](./images/XRF Machine_R.png "Trees")
+
+          ![alt text](./images/XRF Machine.png "Trees")
 
   - title: Education
     layout: list
