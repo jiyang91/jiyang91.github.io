@@ -66,6 +66,8 @@ content:
 
           Review: This project taught me a lot. C++ MFC was the language all I could use, and  control robot, peripheral devices(dispenser, pump, and etc.).
 
+
+
       - layout: top-middle
         title: Few-shot learning
         sub_title:
@@ -112,22 +114,19 @@ content:
         sub_title:
         description: |
 
-          ![alt text](./images/Camera modules on mockup.jpg "Trees")
-
           ![alt text](./images/panoramicview.png "Trees")
-
+          <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-uOZ1BNhLbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+  
       - layout: top-middle
         border: weak
         title: XRF Machine
         caption: Jun. 2017. - Aug. 2017.
         sub_title:
         description: |
-          <details>
-          <summary>Images</summary>
-          ![alt text](./images/XRF Machine_R.png "Trees")
 
           ![alt text](./images/XRF Machine.png "Trees")
-          </details>
 
   - title: Education
     layout: list
