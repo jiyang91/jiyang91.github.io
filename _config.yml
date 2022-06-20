@@ -79,14 +79,14 @@ content:
           Review:
 
       - layout: top-middle
-        title: Anomaly Detection
+        title: Anomaly Detection for display products
         sub_title:
         caption: Oct. 2021. - Present
         border: weak
         description: |
-          What I contributed: I developed anomaly detection system using Padim(<a href="https://arxiv.org/abs/2011.08785">Patch Distribution Modeling Framework for Anomaly Detection and Localization<a/>).
+          What I contributed: We developed anomaly detection system using Padim(<a href="https://arxiv.org/abs/2011.08785">Patch Distribution Modeling Framework for Anomaly Detection and Localization<a/>). Padim is one of SOTA model in Anomaly detection model. We customized some part of this algorithm and adopted this algorithm to some image detection process in the line. Moreover, we developed GUI program for users who want to adopt this algorithm to their detection process.
 
-          Review: aaaa
+          Review: This project was focused on adopting SOTA model in anomaly detection algorithm for display products because most of anomaly detection in our system depends on the commercial package. This project was important for our team to start to use SOTA model by our own development. 
 
       - layout: top-middle
         border: weak
