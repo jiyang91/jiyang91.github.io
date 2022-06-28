@@ -78,7 +78,7 @@ content:
         description: |
           - What I contributed: I tried to build classification model for Fine Metal Mask(FMM), used for depositing organic materials for OLED on the substrate. Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
 
-          - Review: 
+          - Review: Few-shot learning is one of the good choices for classification with small-amout of data. In industrial dataset, the number of defect data is always limited, and this project has the same problem. It is hard to say that the result was great, but it was the great opportunity to study Pytorch framework. During the project, I could experience lots of SOTA models with pytorch framework. 
 
 
 
