@@ -39,7 +39,7 @@ about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am Jiyang Lee from South Korea. I am a Research Engineer in LG Display, Vision Inspection Team, doing research on computer vision algorithms in display manufacturing fields.
 
-  I worked at KIST(Korea Institute of Science and Technology), developing a skewed-legged quadruped robot, and CSCAM, designing semiconductor machienes and anomaly detection program for Cell-Phone Frame.
+  My research interests are <mark>Computer vision</mark>, <mark>Robotics</mark>. 
 
   Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. I published <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">Path planning for SCARA robot based on marker detection using feature extraction and, labelling.</a>
 
@@ -62,11 +62,13 @@ content:
         sub_title:
         caption: Jan. 2015. - Feb. 2017.
         description: |
-          What I contributed: My project in master course was Developing Automated PET Dispenser. The main objective of this work is developing the production system for radioactive products using the SCARA robot. It help protecting workers from exposing to radioactive.
+          - What I contributed: My project in master course was Developing Automated PET Dispenser. The main objective of this work is developing the production system for radioactive products using the SCARA robot. It helps protecting workers from avoiding being exposed. 
 
-          Review: This project taught me a lot. C++ MFC was the language all I could use, and  control robot, peripheral devices(dispenser, pump, and etc.).
+          - Review: This project taught me a lot. C++ MFC was the language all I could use. However, at the final point of my master course, the program I made can control robot, use peripheral devices(dispenser, pump, and etc).  
 
+          - Image
 
+          ![alt text](./images/Robotic dispensing system.png "Trees")
 
       - layout: top-middle
         title: Few-shot learning
@@ -74,9 +76,11 @@ content:
         caption: Feb. 2022. - Jun. 2022.
         border: weak
         description: |
-          What I contributed: I tried to build classification model for Fine Metal Mask(FMM). Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
+          - What I contributed: I tried to build classification model for Fine Metal Mask(FMM), used for depositing organic materials for OLED on the substrate. Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
 
-          Review:
+          - Review: 
+
+
 
       - layout: top-middle
         title: Anomaly Detection for display products
