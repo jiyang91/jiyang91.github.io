@@ -50,7 +50,7 @@ about_content: | # this will include new lines to allow paragraphs
 
       - Mechanical Design: <mark>Autodesk AutoCAD</mark>, <mark>Inventor</mark>, and <mark>SolidWorks</mark>
 
-      - Languages: Korean, English
+      - Languages: <mark>Korean</mark>, <mark>English</mark>
 
 content:
   - title: Projects
@@ -64,7 +64,7 @@ content:
         description: |
           - What I contributed: My project in master course was Developing Automated PET Dispenser. The main objective of this work is developing the production system for radioactive products using the SCARA robot. It helps protecting workers from avoiding being exposed. 
 
-          - Review: This project taught me a lot. C++ MFC was the language all I could use. However, at the final point of my master course, the program I made can control robot, use peripheral devices(dispenser, pump, and etc).  
+          - Review: This project taught me a lot. At this point, C++ MFC was the language all I could use. However, I finished developing the robotic system. The program I made can control robot, use peripheral devices(dispenser, pump, and etc). With 
 
           - Image
 
@@ -78,9 +78,7 @@ content:
         description: |
           - What I contributed: I tried to build classification model for Fine Metal Mask(FMM), used for depositing organic materials for OLED on the substrate. Dataset(6-classes) has some issues: Human-error, imbalanced dataset. Initially, I tried to use Resnet with Mixup augmentation. The result was 40% Accuracy. To improve the accuracy, I removed meaningless classes and tried to use Few-shot learning(MAML, ProtoNet, ProtoMAML). The result improved to about 80% accuracy with 4 classes.
 
-          - Review: Few-shot learning is one of the good choices for classification with small-amout of data. In industrial dataset, the number of defect data is always limited, and this project has the same problem. It is hard to say that the result was great, but it was the great opportunity to study Pytorch framework. During the project, I could experience lots of SOTA models with pytorch framework. 
-
-
+          - Review: In this project, dataset has class-imbalance and problem. The number of defect data is always limited . Few-shot learning is one of the good choices for classification with small-amout of data. It is hard to say that the result was great, but it was the great opportunity to study Pytorch framework. During the project, I could experience lots of SOTA models with pytorch framework. 
 
       - layout: top-middle
         title: Anomaly Detection for display products
@@ -100,7 +98,7 @@ content:
         description: |
           - What I contributed: I developed quadruped robot with 12 smart motors(<a href="https://www.robotis.com/shop/list.php?ca_id=203010">Robotis H54P motors<a/>). During designing, I was focused on compatibility between modules. In final model, most of parts are compatible except main plates. I completly assembled quadruped robot and experimented simple angular motions in static state. In addition, installing camera module on robot and experimented it's status.
 
-          - Review: It was my first mobile robot project. I learned how to design them. I was 
+          - Review: It was my first mobile robot project. I tried to design parts compatible as much as possible. 
 
           - Image
           
