@@ -38,9 +38,11 @@ gtag: "G-2YPRTHGBR2"
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
   
-  I am a Research Engineer in LG Display, Vision Algorithm Inspection Team, doing research and development on computer vision algorithms in display manufacturing fields. Previously, I received my master's degree from the Department of Mechanical Engineering at Sogang University. I worked in CAD/CAM Lab with Advisor, Cheol-soo Lee. I developed Computer vision based path planning robotic system. Currently, my research interests lie in <mark>Computer vision</mark>, <mark>Robotics</mark>. 
-
-  Currently, I am searching for Ph.D. position in Robotics. I expect to research Robot manipulator, Control, and Task and Motion Planning(TAMP) with Computer vision application.
+  I am a Research Engineer in LG Display, Vision Algorithm Inspection Team, doing research and development on computer vision algorithms in display manufacturing fields. My role is developing programs for vision inspection and researching for image based Deep Learning models.
+  
+  Previously, I received my master's degree from the Department of Mechanical Engineering at Sogang University. I worked in CAD/CAM Lab with Advisor, Cheol-soo Lee. I developed Computer vision based path planning robotic system.
+  
+  Currently, I am searching for Ph.D. position in Robotics. My research interests lie in <mark>Computer vision</mark>, <mark>Robotics</mark>. I expect to research Robot manipulator, Control, and Task and Motion Planning(TAMP) with Computer vision application.
 
   - Technical Skills
 
