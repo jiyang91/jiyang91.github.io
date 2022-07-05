@@ -37,12 +37,8 @@ gtag: "G-2YPRTHGBR2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jylee.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Jiyang Lee from South Korea. I am a Research Engineer in LG Display, Vision Inspection Team, doing research on computer vision algorithms in display manufacturing fields.
-
-  My research interests are <mark>Computer vision</mark>, <mark>Robotics</mark>. 
-
-  Previously, I completed my master work on Developing Computer vision based path planning robotic system, CAD/CAM lab in Sogang University, Seoul, working in the group headed by Cheol-Soo Lee. I published <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2018.1429669">Path planning for SCARA robot based on marker detection using feature extraction and, labelling.</a>
-
+  
+  I am a Research Engineer in LG Display, Vision Algorithm Inspection Team, doing research and development on computer vision algorithms in display manufacturing fields. Previously, I received my master's degree from the Department of Mechanical Engineering at Sogang University. I worked in CAD/CAM Lab with Advisor, Cheol-soo Lee. I developed Computer vision based path planning robotic system. Currently, my research interests lie in <mark>Computer vision</mark>, <mark>Robotics</mark>. In computer vision, I focused on Anomaly detection and Image classification for defects in manufacturing field. 
 
   - Technical Skills
 
