@@ -148,10 +148,9 @@ content:
         sub_title: Vision Inspection Algoirthm Team<br><i>Research engineer</i>
         caption: Dec. 2020 - Present
         description: |
-          -	Develop a Multi-anomaly Detection Tool for user-friendly interface to train and test different models.
-          -	Constructed an anomaly detection system for stain defect on display panels.
-          -	Developed a Few-Shot Learning Classification Model for defect images in Fine Metal Mask (FMM).
-          -	Accelerated the legacy system with a CUDA-based algorithm; transformed CPU functions to GPU kernels to save time.
+          - Developed AI Model for image data; Anomaly detection, Classification.
+          - Developed CUDA Program.
+          - Designed Windows-based GUI program for internal distibution.
 
       - layout: left
         border: weak
@@ -169,9 +168,8 @@ content:
         sub_title: CNC Department<br><i>Assistant Research Engineer</i>
         caption: Jan. 2017 - Sep. 2018
         description: |
-          -	Devised a Smartphone aluminum frame vision (optic/mechanical) inspection machine in two stages to identify surface defects. 
-          -	(Client: Samsung Electro-Mechanics) Designed mechanisms and components to build a high-precision, high-stability XRF inspection machine using Autodesk Inventor; created and managed BOM list.
-          -	(Client: Samsung Display) Constructed a loading machine and buffer machine in the T-bending manufacturing line for OLED; modified parts designs and diagrams, and created and managed BOM list.
+          - Designed mechanism for automation machines.
+          - Developed vision inspection program.
 
   - title: Education
     layout: list
